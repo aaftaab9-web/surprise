@@ -396,7 +396,7 @@
                 if (distance < 0) {
                     clearInterval(interval);
                     document.getElementById('countdown-screen').style.display = 'none';
-                    document.querySelector('.container').style.display = 'flex';
+                    document.querySelector('.container').style.display = 'block';
                     // Trigger existing audio and animations
                     audio.play().then(() => {
                         isPlaying = true;
